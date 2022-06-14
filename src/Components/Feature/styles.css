@@ -1,0 +1,83 @@
+.feature {
+    width: 100vw;
+    padding: 15rem 0;
+    color:#1d163e;
+}
+.feature .section-heading {
+    margin-bottom: 5rem;
+}
+.feature__box {
+    transition: all .5s ease;
+}
+.feature__box .icon {
+    width: 24.2rem;
+    height: 24.2rem;
+    margin: 0 auto;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: drop-shadow(0px 40px 15px rgba(255,186,114,0.4));
+    background: linear-gradient(45deg, #ffb16b 0%, #ffdb8d 100%);
+    backface-visibility: hidden;
+    perspective: 1000;
+}
+
+.feature__box--content::before {
+    content: "";
+    width: 4.8rem;
+    height: 2.2rem;
+    background: url(http://gfxpartner.com/Zapper/assets/images/arrow.png) no-repeat;
+    background-size: cover;
+    display: block;
+    position: absolute;
+    top: -2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.feature__box__wrapper {
+    width: 100%;
+    padding: 5.7rem 0.5rem 0.5rem 0.5rem;
+    border-radius: 2.5rem;
+    margin-top: 5rem;
+}
+
+.feature__box--content {
+    background-color: white;
+    position: relative;
+    padding: 3.7rem 2rem 2.1rem 2rem;
+    border-radius: 2rem;
+    text-align: center;
+}
+.feature__box--content h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    width: 80%;
+    margin: 0 auto 3.4rem auto;
+}
+.feature__box--2, .feature__box--4 {
+    margin-top: 10rem;
+}
+.feature__box--1 .feature__box__wrapper {
+    background-color: #efdff7;
+}
+
+.feature__box--2 .feature__box__wrapper {
+    background-color: #ffe8c6;
+}
+
+.feature__box--3 .feature__box__wrapper {
+    background-color: #d0f3f2;
+}
+
+.feature__box--4 .feature__box__wrapper {
+    background-color: #ffdae8;
+}
+.feature__box--2:hover, .feature__box--4:hover {
+    margin-top: 0;
+}
+.feature__box--1:hover, .feature__box--3:hover {
+    margin-top: 10rem;
+}

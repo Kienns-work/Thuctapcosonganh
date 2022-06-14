@@ -1,0 +1,91 @@
+.hero {
+    width: 100vw;
+    margin-top: 5rem;
+}
+.hero__wrapper {
+    width: calc(100% - 10rem);
+    margin: 0 auto;
+    border-radius: 3rem;
+    background-color: #f0f7fc;
+    padding: 18.4rem 0 9.9rem 0;
+}
+.hero .main-heading {
+    font-size: 6rem;
+    font-weight: 700;
+    color: #1d163e;
+    letter-spacing: -0.4rem;
+    width: 100%;
+}
+.hero .hero__wrapper .container {
+    text-align:center;
+}
+.hero .paragraph {
+    font-size: 3.4rem;
+    line-height: 4rem;
+    color: #1d163e ;
+    font-weight: 500;
+    margin: 3.6rem 0 6.5rem 0;
+    text-transform: none;
+}
+.hero .paragraph span {
+    font-weight: 700;
+}
+.hero .download-buttons a {
+    display: inline-flex;
+}
+.hero .download-buttons {
+    margin-top:15rem;
+}
+
+.hero .download-buttons a:last-child {
+    margin-left: 2rem;
+}
+
+.download-buttons a.google-play {
+    background: #1d163e;
+    background: linear-gradient(0deg, #1d163e 0%, #2c215e 50%, #3c2e82 100%);
+    filter: drop-shadow(0px 10px 10px rgba(29, 22, 62,0.4));
+}
+.download-buttons a.apple-store {
+    background: #ffaf32;
+    background: linear-gradient(0deg, #ffaf32 0%, #ffc770 50%, #fca926 100%);
+    filter: drop-shadow(0px 10px 10px rgba(255, 176, 50,0.4));
+}
+.download-buttons a:hover {
+    background-position: center top !important;
+    text-decoration: none;
+}
+@keyframes float{
+    0%, 100%{
+        transform: translateY(0rem);
+    }
+    50%{
+        transform: translateY(-3.5rem);
+    }
+}
+
+
+
+.typed-cursor{
+    opacity: 1;
+    animation: typedjsBlink 0.7s infinite;
+    -webkit-animation: typedjsBlink 0.7s infinite;
+    animation: typedjsBlink 0.7s infinite;
+  }
+  @keyframes typedjsBlink{
+    50% { opacity: 0.0; }
+  }
+  @-webkit-keyframes typedjsBlink{
+    0% { opacity: 1; }
+    50% { opacity: 0.0; }
+    100% { opacity: 1; }
+  }
+  .typed-fade-out{
+    opacity: 0;
+    transition: opacity .25s;
+    -webkit-animation: 0;
+    animation: 0;
+  }
+  .typing {
+      color:#FFAF32
+  }

@@ -1,0 +1,101 @@
+.footer {
+    width: 100vw;
+    margin-top: 3rem;
+    margin-bottom: 5rem;
+    color:#1d163e;
+}
+.footer__wrapper {
+    padding: 15rem 0;
+    width: calc(100% - 10rem);
+    margin: 0 auto;
+    border-radius: 3rem;
+    background-color: #f0f7fc;
+}
+.footer__info--logo {
+    margin-bottom: 5.6rem;
+}
+.footer__info--logo h2 a {
+    color:#1d163e;
+}
+.footer__info--logo h2 a span {
+    color:#FFAF32;
+}
+.footer__info--content .paragraph {
+    width: 76%;
+    margin-bottom: 3rem;
+}
+.social ul li {
+    display: inline-block;
+    width: 4.8rem;
+    height: 4.8rem;
+    border-radius: 50%;
+    background-size: 200% 200% !important;
+    background-position: center bottom !important;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.social ul li {
+    background: linear-gradient(0deg, #1d163e 0%, #2c215e 50%, #3c2e82 100%);
+    filter: drop-shadow(0px 5px 5px rgba(147,65,212,0.4));
+    backface-visibility: hidden;
+    perspective: 1000;
+}
+
+.social ul li:nth-child(n+2) {
+    margin-left: 0.4rem;
+}
+.social ul li a {
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+.footer__content-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+}
+.footer__list ul li:first-child {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 5.6rem;
+}
+.footer__list ul li:nth-child(n+2) {
+    margin-bottom: 1.7rem;
+}
+.footer__list ul li a {
+    font-size: 1.6rem;
+    color: #707577;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+}
+.footer .download-buttons {
+    margin-right: 5.7rem;
+}
+.footer .download-buttons h5 {
+    font-size: 1.8rem;
+    font-weight: 600;
+    margin-bottom: 5.9rem;
+}
+.footer .download-buttons a:last-child {
+    margin-top: 1rem;
+}
+.arrow-icon {
+    margin-left:1rem;
+}
+.footer__copy h5 span {
+    color:#ffaf32;
+}
+

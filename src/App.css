@@ -1,0 +1,143 @@
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin:0; padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  outline: none; border:none;
+  text-transform: capitalize;
+}
+ul {
+  list-style: none;
+}
+.container {
+  /* max-width:1140px !important; */
+  margin:0 auto;
+  /* background-color:lightblue; */
+}
+.main-heading {
+  font-size: 6rem;
+  font-weight: 700;
+  color: #1d163e;
+  letter-spacing: -0.4rem;
+  width: 100%;
+}
+.section-heading {
+  font-weight: 600;
+  font-size: 6rem;
+  width: 68%;
+  line-height: -4rem;
+}
+.color-black {
+  color:#1d163e;
+}
+.paragraph {
+  font-size: 1.6rem;
+  line-height: 3rem;
+}
+h1,h2,h3,h4,h5,h6 {
+  margin-bottom: 0.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+.button {
+  width: 27.1rem;
+  height: 6.5rem;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  border: 4px solid #c7dffa;
+  border-radius: 10rem;
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #666b6d;
+  transition: all .25s ease;
+  letter-spacing: .1rem;
+}
+
+
+
+*::selection{
+  background:var(--pink);
+  color:#fff;
+}
+a {
+  text-decoration:none;
+}
+html{
+  font-size: 62.5%;
+  overflow-x: hidden;
+}
+.download-buttons a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 24.4rem;
+  height: 8.1rem;
+  background-color: grey;
+  border-radius: 5rem;
+  transition: all .25s ease;
+  background-size: 200% 200% !important;
+  background-position: center bottom !important;
+}
+.download-buttons a i {
+  font-size: 3.4rem;
+  color: white;
+}
+.download-buttons a .button-content {
+  letter-spacing: .1rem;
+}
+
+.download-buttons a .button-content span {
+  display: block;
+  font-size: 2rem;
+  color: white;
+  margin-top: 0.2rem;
+  letter-spacing: initial;
+}
+.paragraph.dark {
+  color: #666b6d;
+}
+
+.loader-wrapper {
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  flex-direction:column;
+  background-color:#191919;
+  color:#dbd8d6;
+  position:relative;
+}
+.loader-wrapper h1 {
+  font-size:1.5vw;
+  font-family: 'Permanent Marker', cursive;
+  font-weight:600;
+  font-style:italic;
+  animation:reveal 1s ease-in;
+}
+.loader-wrapper h2 {
+  font-size:1.5vw;
+  font-family: 'Permanent Marker', serif;
+  animation:reveal 2.5s ease-in;
+}
+.absolute {
+  position:fixed;
+  top:0; left:0; bottom:0; right:0;
+  background-color:black;
+  z-index:100;
+}
+@keyframes reveal {
+  0% {
+    opacity:0;
+  }
+  100% {
+    opacity:1;
+  }
+}
+@media (max-width: 1200px){
+  html {
+    font-size:40%;
+  }
+}
+

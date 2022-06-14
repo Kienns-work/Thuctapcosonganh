@@ -1,0 +1,66 @@
+/* Chat containers */
+.review-page {
+  border: 2px solid #dedede;
+  background-color: #f1f1f1;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px auto;
+  font-size:2rem;
+  width: 80%;
+}
+
+/* Darker chat container */
+.darker {
+  border-color: #ccc;
+  background-color: #ddd;
+}
+
+/* Clear floats */
+.review-page::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Style images */
+.review-page img {
+  float: left;
+  max-width: 60px;
+  width: 100%;
+  margin-right: 20px;
+  border-radius: 50%;
+}
+
+/* Style the right image */
+.review-page img.right {
+  float: right;
+  margin-left: 20px;
+  margin-right:0;
+}
+
+/* Style time text */
+.time-right {
+  float: right;
+  color: #aaa;
+}
+
+/* Style time text */
+.time-left {
+  float: left;
+  color: #999;
+}
+.back-btn {
+  margin:2rem 3rem;
+  border:1px solid #1d163e;
+}
+.back-btn:hover {
+  background-color:#ffaf32;
+  color:white;
+  cursor:pointer;
+}
+.reviews-title {
+  font-size:5rem;
+  color:#1d163e;
+  text-align:center;
+  margin:2rem 0;
+}

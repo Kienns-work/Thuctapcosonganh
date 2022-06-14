@@ -1,0 +1,84 @@
+.blog {
+    padding: 15rem 0;
+}
+.related-blog .section-heading {
+    text-align: center;
+    margin: 0 auto 5rem auto;
+    width: 35%;
+}
+.blog__single {
+    width: 100%;
+    height: 65.7rem;
+    border-radius: 3rem;
+    position: relative;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size: cover;
+    -webkit-transition: all .25s ease;
+    transition: all .25s ease;
+    background-position: center center;
+    -webkit-transform: var(--transform-fix);
+    transform: var(--transform-fix);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-perspective: 1000;
+    perspective: 1000;
+    filter: drop-shadow(0px 20px 10px rgba(75,80,84,0.2));
+    -webkit-filter: drop-shadow(0px 20px 10px rgba(75,80,84,0.2));
+    -moz-filter: drop-shadow(0px 20px 10px rgba(75,80,84,0.2));
+}
+.blog__single-image {
+    width: 100%;
+    height: 100%;
+}
+.blog__single-info {
+    background-color: white;
+    padding: 4rem 4.4rem 2.8rem 4.4rem;
+    border-radius: 2rem;
+    position: absolute;
+    width: 34rem;
+}
+.blog .col-lg-4 .blog__single-info {
+    bottom: 1rem;
+    left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+.blog__single-info h3 {
+    font-size: 2.2rem;
+    font-weight: 600;
+    line-height: 3rem;
+    color: #000;
+}
+.blog__single-info h4 {
+    font-size: 1.4rem;
+    color: #666b6d;
+    margin: 1.8rem 0 1.5rem 0;
+    font-weight: 400;
+}
+.blog .col-lg-8 .blog__single-info {
+    bottom: 1rem;
+    right: 1rem;
+}
+.blog__single-info h4 span {
+    margin: 0 1.2rem;
+    color: #cad1d4;
+}
+.related-blog .button {
+    border: 4px solid #ffdbe8;
+}
+.step .button__wrapper a {
+    background: #1369ec;
+    background: linear-gradient(0deg, rgba(19,105,236,0) 0%, rgba(255,177,107,0) 50%, #ffb16b 51%, #ffdb8d 100%);
+    background-size: 200% 200%;
+    background-position: center bottom;
+    backface-visibility: hidden;
+    perspective: 1000;
+}
+.related-blog .button {
+    margin: 10rem auto 0 auto;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}

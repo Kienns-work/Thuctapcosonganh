@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="https://fonts.googleapis.com/css?family=Teko:700" rel="stylesheet">
+    <style>        
+        canvas{
+            border: 1px solid #000;
+            display: block;
+            margin: 0 auto;
+        }
+        .game {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+        }
+
+        .game {
+            min-height: 100%;
+            max-width: 960px;
+            margin: 0 auto;
+            }
+
+            .game .content {
+            text-align: center;
+            padding: 0 20px;
+            }
+            .game p {
+            margin: 10px 0;
+            font-size: 18px;
+            line-height: 1.5em;
+            }
+            
+    </style>
+    <title>Flappy Birds</title>
+</head>
+<body>
+    <div class="game">
+        <canvas id="bird" width="320" height="480"></canvas>
+        <article class="content">
+            <p>Click <button>Left Mouse</button> on screen to control the bird.</p>
+        </article>
+    </div>
+
+    <script src="game.js"></script>
+</body>
+</html>

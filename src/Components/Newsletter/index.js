@@ -105,7 +105,7 @@ const Newsletter = () => {
                         </div>
                         </div>
                     </div>
-                    <Link to="/reviews" className="button visit__rating--btn" onClick={checkUser}>Xem sản phầm đeeeee</Link>
+                    <Link to="/reviews" className="button visit__rating--btn" onClick={checkUser}>Xem bình luận</Link>
                 </div>
 
             </section>
